@@ -14,9 +14,7 @@
 # First line of input is the values of n, k
 
 # consume input
-n, k = input().split()
-n = int(n)
-k = int(k)
+n, k = map(int, input().split())
 
 count = 0
 for i in range(n):
