@@ -3,11 +3,11 @@ import { useRouter , useSearchParams} from 'expo-router';
 
 const profile = () => {
     const router = useRouter();
-    const {name} = useSearchParams();
+    const {name, username} = useSearchParams();
 
     return (
         <SafeAreaView style={styles.container}>
-            <Text style={styles.subtitle}>This is profile view for {name}</Text>
+            <Text style={styles.subtitle}>This is profile view for {name}(@{username}) </Text>
             <Button onPress={() => router.back()} title={"Go back!"}/>
         </SafeAreaView>
     )

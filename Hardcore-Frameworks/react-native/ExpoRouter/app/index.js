@@ -7,8 +7,8 @@ export default function Page() {
       <View style={styles.main}>
         <Text style={styles.title}>Hello World</Text>
         <Text style={styles.subtitle}>This is the first page of your app.</Text>
-        <Link href={"/profile?name=Lakshay"}>Open profile with params as string</Link>
-        <Link href={{pathname: "/profile", params: {"name" : "Lakshay Rana"}}}>Open profile with params as dict</Link>
+        <Link href={"/lakshaytalksto?name=Lakshay"}>Open profile with params as string</Link>
+        <Link href={{pathname: "/lakshaytalksto", params: {"name" : "Lakshay "}}}>Open profile with params as dict</Link>
       </View>
     </View>
   );
