@@ -8,6 +8,12 @@ Use [`expo-router`](https://expo.github.io/router) to build native navigation us
 npx create-react-native-app -t with-router
 ```
 
+Install react-native-debugger
+
+```sh
+$ brew install react-native-debugger
+```
+
 ## 📝 Notes
 
 - [Expo Router: Docs](https://expo.github.io/router)
