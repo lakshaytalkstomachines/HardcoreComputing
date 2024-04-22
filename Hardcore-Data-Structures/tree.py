@@ -4,8 +4,9 @@ Basic Implementation of a tree.
 
 from typing import Optional
 
+from interfaces.node import TwoWayNodeABC
 
-class Node:
+class Node(TwoWayNodeABC):
     """
     This defines a unit of data (integer).
     """
