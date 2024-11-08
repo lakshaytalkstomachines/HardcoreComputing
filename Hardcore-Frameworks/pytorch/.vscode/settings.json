@@ -1,0 +1,8 @@
+{
+  "python.formatting.blackargs": [
+    "--line-length",
+    "80",
+    "--list-line-length",
+    "1"
+  ]
+}
